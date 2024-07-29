@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="20" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-21T18:06:38 IST" name="Suite" finished-at="2024-07-21T18:09:13 IST" duration-ms="155340">
+    <groups>
+    </groups>
+    <test started-at="2024-07-21T18:06:38 IST" name="Test" finished-at="2024-07-21T18:09:13 IST" duration-ms="155340">
+      <class name="ictInternshipPortal.AdminDashboardTC">
+        <test-method signature="TC_IP_1_4_1()[pri:8, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:07:47 IST" name="TC_IP_1_4_1" finished-at="2024-07-21T18:07:54 IST" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_1 -->
+        <test-method signature="TC_IP_1_4_2()[pri:9, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:07:54 IST" name="TC_IP_1_4_2" finished-at="2024-07-21T18:07:57 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_2 -->
+        <test-method signature="TC_IP_1_4_3()[pri:10, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:07:57 IST" name="TC_IP_1_4_3" finished-at="2024-07-21T18:08:00 IST" duration-ms="3007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_3 -->
+        <test-method signature="TC_IP_1_4_4()[pri:11, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:00 IST" name="TC_IP_1_4_4" finished-at="2024-07-21T18:08:05 IST" duration-ms="4449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_4 -->
+        <test-method signature="TC_IP_1_4_5()[pri:12, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:05 IST" name="TC_IP_1_4_5" finished-at="2024-07-21T18:08:08 IST" duration-ms="3683" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1087)
+at ictInternshipPortal.AdminDashboardTC.TC_IP_1_4_5(AdminDashboardTC.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_5 -->
+        <test-method signature="TC_IP_1_4_6()[pri:13, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:08 IST" name="TC_IP_1_4_6" finished-at="2024-07-21T18:08:11 IST" duration-ms="2853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_6 -->
+        <test-method signature="TC_IP_1_4_7()[pri:14, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:11 IST" name="TC_IP_1_4_7" finished-at="2024-07-21T18:08:12 IST" duration-ms="991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_7 -->
+        <test-method signature="TC_IP_1_4_8()[pri:15, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:12 IST" name="TC_IP_1_4_8" finished-at="2024-07-21T18:08:18 IST" duration-ms="6066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_8 -->
+        <test-method signature="TC_IP_1_4_9()[pri:16, instance:ictInternshipPortal.AdminDashboardTC@682b2fa]" started-at="2024-07-21T18:08:18 IST" name="TC_IP_1_4_9" finished-at="2024-07-21T18:08:30 IST" duration-ms="11300" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1087)
+at ictInternshipPortal.AdminDashboardTC.TC_IP_1_4_9(AdminDashboardTC.java:163)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_4_9 -->
+      </class> <!-- ictInternshipPortal.AdminDashboardTC -->
+      <class name="ictInternshipPortal.LoginTC">
+        <test-method is-config="true" signature="launch()[pri:0, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:34 IST" name="launch" finished-at="2024-07-21T18:06:38 IST" duration-ms="3856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="TC_IP_1_1_1()[pri:1, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:38 IST" name="TC_IP_1_1_1" finished-at="2024-07-21T18:06:38 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_1_1 -->
+        <test-method signature="TC_IP_1_2_1()[pri:2, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:38 IST" name="TC_IP_1_2_1" finished-at="2024-07-21T18:06:40 IST" duration-ms="1866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_1 -->
+        <test-method signature="TC_IP_1_2_2()[pri:3, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:40 IST" name="TC_IP_1_2_2" finished-at="2024-07-21T18:06:42 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_2 -->
+        <test-method signature="TC_IP_1_2_3()[pri:4, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:42 IST" name="TC_IP_1_2_3" finished-at="2024-07-21T18:06:43 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_3 -->
+        <test-method signature="TC_IP_1_2_6()[pri:5, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:43 IST" name="TC_IP_1_2_6" finished-at="2024-07-21T18:06:45 IST" duration-ms="1784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_6 -->
+        <test-method signature="TC_IP_1_2_4()[pri:6, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:06:45 IST" name="TC_IP_1_2_4" finished-at="2024-07-21T18:07:06 IST" duration-ms="20603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_4 -->
+        <test-method signature="TC_IP_1_2_5()[pri:7, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:07:06 IST" name="TC_IP_1_2_5" finished-at="2024-07-21T18:07:47 IST" duration-ms="40969" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Please enter your password] but found [Password must be at least 8 characters]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Please enter your password] but found [Password must be at least 8 characters]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at ictInternshipPortal.LoginTC.TC_IP_1_2_5(LoginTC.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_2_5 -->
+        <test-method is-config="true" signature="new_setup()[pri:0, instance:ictInternshipPortal.LoginTC@10683d9d]" started-at="2024-07-21T18:09:13 IST" name="new_setup" finished-at="2024-07-21T18:09:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- new_setup -->
+      </class> <!-- ictInternshipPortal.LoginTC -->
+      <class name="ictInternshipPortal.MentorDashboardTC">
+        <test-method signature="TC_IP_1_3_1()[pri:17, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:30 IST" name="TC_IP_1_3_1" finished-at="2024-07-21T18:08:35 IST" duration-ms="5449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_1 -->
+        <test-method signature="TC_IP_1_3_2()[pri:18, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:35 IST" name="TC_IP_1_3_2" finished-at="2024-07-21T18:08:38 IST" duration-ms="2775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_2 -->
+        <test-method signature="TC_IP_1_3_3()[pri:18, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:38 IST" name="TC_IP_1_3_3" finished-at="2024-07-21T18:08:41 IST" duration-ms="3579" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1087)
+at ictInternshipPortal.MentorDashboardTC.TC_IP_1_3_3(MentorDashboardTC.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_3 -->
+        <test-method signature="TC_IP_1_3_4_6()[pri:19, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:41 IST" name="TC_IP_1_3_4_6" finished-at="2024-07-21T18:08:47 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_4_6 -->
+        <test-method signature="TC_IP_1_3_5()[pri:20, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:47 IST" name="TC_IP_1_3_5" finished-at="2024-07-21T18:08:51 IST" duration-ms="4080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_5 -->
+        <test-method signature="TC_IP_1_3_7()[pri:21, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:51 IST" name="TC_IP_1_3_7" finished-at="2024-07-21T18:08:53 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_7 -->
+        <test-method signature="TC_IP_1_3_8()[pri:22, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:08:53 IST" name="TC_IP_1_3_8" finished-at="2024-07-21T18:09:06 IST" duration-ms="12630" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1087)
+at ictInternshipPortal.MentorDashboardTC.TC_IP_1_3_8(MentorDashboardTC.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_8 -->
+        <test-method signature="TC_IP_1_3_9()[pri:23, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:09:06 IST" name="TC_IP_1_3_9" finished-at="2024-07-21T18:09:12 IST" duration-ms="6246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_9 -->
+        <test-method signature="TC_IP_1_3_10()[pri:24, instance:ictInternshipPortal.MentorDashboardTC@217ed35e]" started-at="2024-07-21T18:09:12 IST" name="TC_IP_1_3_10" finished-at="2024-07-21T18:09:13 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_IP_1_3_10 -->
+      </class> <!-- ictInternshipPortal.MentorDashboardTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
